@@ -34,3 +34,19 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# emacs backup files
+*~
+
+# trace files
+*.npy
+*.npz
+
+# movie outputs
+*.mp4
+
+# generated files
+supersample.dat
+
+# ipython output
+.ipynb_checkpoints
